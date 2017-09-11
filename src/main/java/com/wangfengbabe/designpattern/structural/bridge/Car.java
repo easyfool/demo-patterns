@@ -1,0 +1,18 @@
+package com.wangfengbabe.designpattern.structural.bridge;
+
+/**
+ * Created by wangfeng on 11/09/2017.
+ */
+public class Car extends Vehicle {
+
+  public Car(Workshop workshop1, Workshop workshop2) {
+    super(workshop1, workshop2);
+  }
+
+  @Override
+  public void manufacture() {
+    System.out.print("Car ");
+    workshop1.work();
+    workshop2.work();
+  }
+}
