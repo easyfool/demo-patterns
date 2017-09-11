@@ -1,4 +1,4 @@
-package com.wangfengbabe.designpattern.creational.builder;
+package com.wangfengbabe.designpattern.creational.builder.car;
 
 /**
  * Created by wangfeng on 31/08/2017.

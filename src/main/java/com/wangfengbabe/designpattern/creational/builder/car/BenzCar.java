@@ -1,10 +1,9 @@
-package com.wangfengbabe.designpattern.creational.builder;
+package com.wangfengbabe.designpattern.creational.builder.car;
 
 /**
  * Created by wangfeng on 31/08/2017.
  */
-public class BMWCar implements ICar {
-
+public class BenzCar implements ICar {
 
   private String engine;
   private String wheel;
@@ -42,7 +41,7 @@ public class BMWCar implements ICar {
 
   @Override
   public String toString() {
-    return "BMWCar{" +
+    return "BenzCar{" +
         "engine='" + engine + '\'' +
         ", wheel='" + wheel + '\'' +
         ", window='" + window + '\'' +
